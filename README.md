@@ -1,5 +1,3 @@
-from classic.migrations.connections import DatabaseURI
-
 # Classic Scenarios
 
 Предоставляет примитивы для написания простых сценариев с бизнес-логикой.
