@@ -36,7 +36,7 @@ def scenario(fn):
             new_self = copy.copy(self)
             for k, v in kwargs.items():
                 setattr(new_self, k, v)
-            return fn(new_self, **kwargs)
+            return fn(new_self)
         except Return as exc:
             return exc.result
 
