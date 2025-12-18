@@ -16,5 +16,5 @@ class Return(Exception):
     ... assert SomeCls().run() == 'SomeValue'
     """
 
-    def __init__(self, result: object):
+    def __init__(self, result: object = None):
         self.result = result
